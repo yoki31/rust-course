@@ -1,56 +1,126 @@
-# Rust 语言圣经 (The course)
+<h1 align="center">Rust语言圣经 </h1> 
 
-- 在线阅读
 
-  - 官方： https://course.rs
+<div align="center">
+    <a href="https://trendshift.io/repositories/2005?utm_source=repository-badge&amp;utm_medium=badge&amp;utm_campaign=badge-repository-2005" target="_blank" rel="noopener noreferrer"><img src="https://trendshift.io/api/badge/repositories/2005" alt="sunface%2Frust-course | Trendshift" width="250" height="55"/></a>
+    <img src="https://github.com/sunface/rust-course/blob/main/assets/banner.jpg?raw=true">
+</div>
+   
+<div align="center">
 
-  - 国内镜像： https://book.rust.team
 
-  - 知乎： [支持章节内目录跳转](https://www.zhihu.com/column/c_1452781034895446017)
 
-- 最近修订： 新增章节 [全局变量和 Box::leak](https://zhuanlan.zhihu.com/p/457369865)
-- Rust 版本： Rust edition 2021
-- QQ 交流群：1009730433
+<!-- <a href="https://www.zhihu.com/column/c_1452781034895446017">
+  <img alt="Sunface | 知乎" height="20px" width="20px" src="https://github.com/sunface/rust-course/blob/main/assets/zhihu.jpg">
+  [![studyrut](https://img.shields.io/badge/RustCn社区-orange)](https://github.com/rustlang-cn) [![Stars Count](https://img.shields.io/github/stars/sunface/rust-course?style=flat)](https://github.com/sunface/rust-course/stargazers)
+[![](https://img.shields.io/github/issues-pr-closed-raw/sunface/rust-course.svg?style=flat)](https://github.com/sunface/rust-course/issues)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ines/spacy-course/master)
+</a> -->
 
-### 教程简介
+</div>
 
-**`Rust 语言圣经`**涵盖从**入门到精通**所需的全部 Rust 知识，目录及内容都经过深思熟虑的设计，同时语言生动幽默，行文流畅自如，摆脱技术书籍常有的机器味和晦涩感。
+<br />
 
-在 Rust 基础教学的同时，我们还提供了（部分）：
+为国内用户量身打造、最用心的 Rust 教程，新手入门，老手提升生产力。
 
-- **深入度**，在基础教学的同时，提供了深入剖析。浅尝辄止并不能让我们站上紫禁之巅
-- **性能优化**，选择 Rust，意味着就要追求性能，因此你需要体系化的了解性能优化
-- **专题**，将 Rust 高级内容通过专题的方式一一呈现，内容内聚性极强
-- **难点和错误索引**，作为一本工具书，优秀的索引能力非常重要，遗忘不可怕，找不到才可怕
-- **场景化模版**，程序员上网查询如何操作文件是常事，没有人能记住所有代码，场景化模版可解君忧
+- 在线阅读: https://course.rs
+- 在线练习：https://practice.course.rs
+- AI 前沿学习：https://beatai.org 每日精选全球好文，实时、高质、有用
 
-总之在写作过程中我们始终铭记初心：为中国用户打造一门**全面的、深入的、持续更新的** Rust 教程。 新手用来入门，老手用来提高，高手用来提升生产力。
 
-### 借鉴的书籍
+## 创作感悟
 
-本书的部分内容借鉴了以下书籍，特此感谢：
+Rust 语言圣经已写 170 余章、110 余万字、历经 800 多个小时，每一章节都是纯手工，绝无质量上的妥协( 优秀的读者们应该都有此体会 )。
+
+曾有读者问： 这么好的书为何是开源，而非出版？原因很简单，Rust 要在国内发展起来，必须得有追梦之人去做不计付出的事，我希望自己能贡献一份微薄之力。
+
+但要说完全无欲无求，emmm，看到项目多了一颗 🌟，好像也非常开心，有什么能比读者大大的赞美更宝贵:)
+
+你们用指尖绘制星空，那里繁星点点，每一颗都在激励着我们披荆斩棘、不断前行。不夸张的说，没有你们，开源世界就没有星光，自然也不会有今日的开源盛世。
+
+能与大家在茫茫人海中相识，这感觉真好！
+
+
+<img width="2452" height="744" alt="1780625980773" src="https://github.com/user-attachments/assets/988797be-c886-45ac-99d6-569fae654dfe" />
+
+
+
+## 🏆 贡献者
+
+非常感谢本教程的[所有贡献者](https://github.com/sunface/rust-course/graphs/contributors)，正是有了你们，才有了现在的高质量 Rust 教程! 特别感谢：
+
+<table>
+    <tbody>
+    <tr>
+        <td align="center">
+            <a href="https://github.com/EluvK">
+                <img src="https://avatars.githubusercontent.com/u/36977935?v=4" width="160px" alt=""/>
+                <br />
+                <sub><b>EluvK</b></sub>
+            </a>
+        </td>
+        <td align="center">
+            <a href="https://github.com/AllanDowney">
+                <img src="https://avatars.githubusercontent.com/u/82752697?v=4?s=100"  width="160px" alt=""/>
+                <br />
+                <sub><b>AllanDowney</b></sub>
+            </a>
+        </td>
+    </tr>
+    </tbody>
+</table>
+
+<br />
+
+
+<table>
+    <tbody>
+    <tr>
+        <td align="center">
+            <a href="https://github.com/SUN-LG">
+                <img src="https://avatars.githubusercontent.com/u/15073915?v=4" width="100px" alt=""/>
+                <br />
+                <sub><b>孙立刚</b></sub>
+            </a>
+        </td>
+        <td align="center">
+            <a href="https://github.com/JesseAtSZ">
+                <img src="https://avatars.githubusercontent.com/u/35264598?v=4?s=100" width="100px" alt=""/>
+                <br />
+                <sub><b>JesseAtSZ</b></sub>
+            </a>
+        </td>
+        <td align="center">
+            <a href="https://github.com/Rustln">
+                <img src="https://avatars.githubusercontent.com/u/100085326?v=4?s=100" width="100px" alt=""/>
+                <br />
+                <sub><b>Rustln</b></sub>
+            </a>
+        </td>
+        <td align="center">
+            <a href="https://github.com/1132719438">
+                <img src="https://avatars.githubusercontent.com/u/10138791?v=4?s=100" width="100px" alt=""/>
+                <br />
+                <sub><b>1132719438</b></sub>
+            </a>
+        </td>
+    </tr>
+    </tbody>
+</table>
+
+
+## 开源协议
+
+在开源版权上，我们选择了 [No License](https://choosealicense.com/no-permission/)，这意味着读者可以随意的 fork 和阅读，但是**不能私下修改后再包装分发**，如果有这方面的需求，请联系我们，望理解。
+
+## 借鉴的书籍
+
+站在巨人的肩膀上，能帮我们看的更远，特此感谢以下巨人：
 
 - [Rust Book](https://doc.rust-lang.org/book)
-- [Rust nomicon](https://doc.rust-lang.org/nomicon/dot-operator.html)
-- 详细清单参见 [这里](./book/writing-material/books.md)
+- [Rust nomicon](https://doc.rust-lang.org/nomicon/intro.html)
+- [Async Rust](https://rust-lang.github.io/async-book/01_getting_started/01_chapter.html)
+- 详细清单参见 [这里](./assets/writing-material/books.md)
 
 因为它们绝大部分是支持 APACHE + MIT 双协议的，因此我们选择了遵循其中的 MIT 协议，并在这里统一对借鉴的书籍进行说明。
 
-### 贡献者
-
-非常感谢本教程的所有贡献者们，正是有了你们，才有了现在的高质量 Rust 教程！
-
-- [@JesseAtSZ](https://github.com/JesseAtSZ)
-- [@mg-chao](https://github.com/mg-chao)
-- [@1132719438](https://github.com/1132719438)
-- [@codemystery](https://github.com/codemystery)
-- [@AllanDowney](https://github.com/AllanDowney)
-- [@chenxuuu](https://github.com/chenxuuu)
-
-尤其感谢这些主要贡献者，谢谢你们花费大量时间贡献了多处`fix`和高质量的内容优化，非常感动，再次感谢～～
-
-### 开源说明
-
-Rust 语言圣经是**完全开源**的电子书，每个章节都至少用时 4-6 个小时才能初步完稿，牺牲了大量休闲娱乐、陪伴家人的时间，还没有任何钱赚，**如果大家觉得这本书作者真的用心了，希望你能帮我们点一个 🌟 `star`**，感激不尽！：）
-
-在开源版权上，我们选择了 [No License](https://www.google.com.hk/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwigkv-KtMT0AhXFdXAKHdI4BCcQFnoECAQQAw&url=https%3A%2F%2Fchoosealicense.com%2Fno-permission%2F&usg=AOvVaw3M2Q4IbdhnpJ2K71TF7SPB)，这意味着读者可以随意的 fork 和阅读，但是**不能私下修改后再包装分发**，如果有这方面的需求，请联系我们，望理解。
